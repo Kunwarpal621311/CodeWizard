@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeWizard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="favicon.png" type="image/x-icon">
+    
+</head>
+<body>
+
+    <header>
+        <div class="nav">
+        <img src="logo.png" alt="">
+    </div>
+    </header>
+
+    <div class="con" id="con">
+        <div class="left" id="left">
+            <div class="CODE" id="htmlcodesection">
+                <div class="mainpanel">
+                <label class="heading"><i class="fa-brands fa-html5"></i>HTML</label>
+                <div >
+                <button id="htmlmin"> <i class="fa-solid fa-minus"></i></button>
+                <button id="htmlmax"><i class="fa-regular fa-square"></i></button>
+                <button id="htmlmaxhight"> <i class="fa-sharp fa-solid fa-window-maximize"></i></button>
+                </div>
+                </div>
+                <textarea class="codearea" id="HTMLCODEAREA" onkeyup="run()" contenteditable=""></textarea>
+            </div>
+
+            <div class="CODE" id="csscodesection">
+                <div class="mainpanel">
+                <label class="heading"><i class="fa-brands fa-css3-alt"></i>CSS</label>
+
+                <div >
+                    <button id="cssmin"> <i class="fa-solid fa-minus"></i></button>
+                    <button id="cssmax"><i class="fa-regular fa-square"></i></button>
+                    <button id="cssmaxhight"> <i class="fa-sharp fa-solid fa-window-maximize"></i></button>
+                    </div>
+            </div>
+                <textarea  class="codearea" id="CSSCODEAREA" onkeyup="run()"></textarea>
+                
+            </div>
+
+            <div class="CODE" id="jscodesection">
+                <div class="mainpanel">   
+            <label class="heading"><i class="fa-brands fa-js"></i>JAVASCRIPT</label>
+            <div >
+                <button id="jsmin"> <i class="fa-solid fa-minus"></i></button>
+                <button id="jsmax"><i class="fa-regular fa-square"></i></button>
+                <button id="jsmaxhight"> <i class="fa-sharp fa-solid fa-window-maximize"></i></button>
+                </div>
+        </div>
+                <textarea  class="codearea"id="JSCODEAREA" onkeyup="run()"></textarea>
+            </div>
+        </div>
+
+        <div class="right"  id="right">
+            <div class="outputwindow" id="outputsection"  >
+                <div class="mainpanel">
+                <label class="heading"><i class="fa-solid fa-play"></i>OUTPUT</label>  
+                <div>
+                <button id="outputnormal"><i class="fa-regular fa-hand-point-left"></i></button>
+                <button id="outputmax"><i class="fa-solid fa-maximize"></i></i></button>
+            </div>
+             </div>   
+            <iframe src="" frameborder="0" id="outputiframe"></iframe>
+        </div>
+        </div>
+
+    </div>
+
+
+    <footer>
+        <div class="footerbody" id="footerbody">
+            
+            <div class="section logo">
+                <img src="logofooter.png" alt="">
+            </div>
+
+            <div class="section about">
+                <ul class="infolist">
+                    <li><a href="https://linkedin.com/in/kunwarpal"><i class="fa-brands fa-linkedin"></i> Linkedin</a></li>
+                    <li><a href="https://github.com/Kunwarpal621311"> <i class="fa-brands fa-github"></i> Github</a></li>
+                    <li><a href="mailto:atul621311@gmail.com">
+                        <i class="fa-solid fa-envelope"></i>
+                        MAIL</a></li>
+                    <li><a href="#"><i class="fa-solid fa-file-code"></i> CODE</a></li>
+                   
+                </ul>
+
+            </div>
+
+           
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+
+    
+</body>
+</html>
