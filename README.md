@@ -14,7 +14,7 @@ CodeWizard is an online code editor specifically designed for HTML, CSS, and Jav
 
 To get started with CodeWizard, follow these simple steps:
 
-1. Visit the [CodeWizard website](https://www.codewizard.com).
+1. Visit the [CodeWizard website] (https://kunwarpal621311.github.io/CodeWizard/)
 2. Begin writing your HTML, CSS, or JavaScript code in the editor.
 3. To see your code in action, use the split view or preview window.
 
